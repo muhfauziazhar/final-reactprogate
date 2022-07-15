@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand, sans-serif;
+}
+
+.container {
+    background: whitesmoke;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-wrapper {
+    background: linear-gradient(to right bottom, #c0e9f5, #ebc6c6);
+    min-width: 450px;
+    min-height: 650px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px #eca1a1;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    color: #eca1a1;
+    text-align: center;
+    margin: 30px 0;
+    font-family: Vibur, cursive;
+    font-size: 3rem;
+}
+
+.task-input {
+    outline: none;
+    width: 280px;
+    padding: 15px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background: white;
+    border: 1px solid #eca1a1;
+    border-radius: 10px;
+}
+
+.button-add {
+    width: 70px;
+    padding: 15px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #eca1a1;
+    cursor: pointer;
+}
+
+.list-item {
+    display: flex;
+    margin: 20px 0;
+    background-color: #a1d4ec;
+    border: 1px solid #a1d4ec;
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 30px;
+}
+
+.button-complete,
+.button-delete,
+.button-edit {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.button-complete {
+    color: green;
+    margin-right: 10px;
+}
+
+.button-edit {
+    color: #ffe817;
+    margin-right: 10px;
+}
+
+.button-delete {
+    color: #f75656;
+}
+
+.complete {
+    text-decoration-style: solid;
+    text-decoration-line: line-through;
+    text-decoration-color: #ff6c6c;
+    opacity: 0.6;
+}
+
+.list {
+    width: 260px;
+    background-color: #a1d4ec;
+    border: none;
+    color: #353535;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
